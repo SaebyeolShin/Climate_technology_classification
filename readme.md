@@ -1,5 +1,15 @@
 # [DACON] 자연어 기반 기후기술분류 AI 경진대회 4등 코드 
 
+대회 설명: 국가 연구개발과제를 '기후기술분류체계'에 맞추어 라벨링하는 알고리즘 개발
+참고자료:
+[기후기술 분류체계] (https://www.ctis.re.kr/ko/techClass/classification.do?key=1141)
+[2019년 기후기술 국가연구개발사업 조사분석 보고서](https://www.gtck.re.kr/gtck/gtcPublication.do?mode=view&articleNo=1844&article.offset=30&articleLimit=10)
+
+주최 : 녹색기술센터(GTC)
+주관 : DACON
+
+============================================================================
+
 <NewStar>팀은 두명이 서로 다른 모델을 사용하였기 때문에 코드의 파이프라인은 크게 2가지로 나누었습니다.  
 
 1. train_j.py -> inference_j.py
