@@ -17,7 +17,7 @@ bash run.sh
 
 다음 [링크](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM)에서 train.csv, test.csv를 data_s와 data_j/original/에 넣으면 됩니다.
 
-==========================================================================================================================================================
+============================================================================================
 
 Since the NewStar team used two different models, the code pipeline was divided into two major parts.
 
