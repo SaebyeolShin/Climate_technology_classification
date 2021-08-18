@@ -17,7 +17,7 @@ bash run.sh
 
 다음 [링크](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM)에서 train.csv, test.csv를 data_s와 data_j/original/에 넣으면 됩니다.
 
-============================================================================================
+============================================================================
 
 Since the team <NewStar> used two different models, the code pipeline was divided into two major parts.
 
@@ -34,7 +34,7 @@ bash run.sh
 Due to the large file size, only the code and material for middle classification are attached.
 Just download train.csv and test.csv from [link](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM) and then put them in data_s and data_j/original/.
 
-============================================================================================
+============================================================================
 
 ### System Requirements
 python=3.8  
