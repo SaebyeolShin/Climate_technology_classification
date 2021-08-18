@@ -32,7 +32,7 @@ All you have to do is run the script file that includes all of the above steps.
 bash run.sh
 ```
 Due to the large file size, only the code and material for middle classification are attached.
-Just download train.csv and test.csv from [link](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM) put them in data_s and data_j/original/.
+Just download train.csv and test.csv from [link](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM) and then put them in data_s and data_j/original/.
 
 ============================================================================================
 
