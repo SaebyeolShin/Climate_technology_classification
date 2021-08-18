@@ -13,7 +13,7 @@
 bash run.sh
 ```
 
-파일 용량이 큰 관계로 코드와 중분류를 위한 자료만 첨부합니다. 
+파일 용량이 큰 관계로 코드와 중분류 카테고리 추가를 위한 자료만 첨부합니다. 
 
 다음 [링크](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM)에서 train.csv, test.csv를 data_s와 data_j/original/에 넣으면 됩니다.
 
@@ -31,8 +31,8 @@ All you have to do is run the script file that includes all of the above steps.
 ```bash
 bash run.sh
 ```
-Due to the large file size, only the code and material for middle classification are attached.
-Just download train.csv and test.csv from [link](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM) and then put them in data_s and data_j/original/.
+Due to the large file size, only the code and material for middle-category are attached.
+Download train.csv and test.csv from [link](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM) and then put them in data_s and data_j/original/.
 
 ============================================================================
 
