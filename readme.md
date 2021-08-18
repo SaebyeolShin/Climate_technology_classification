@@ -3,14 +3,11 @@
 대회 설명: 국가 연구개발과제를 '기후기술분류체계'에 맞추어 라벨링하는 알고리즘 개발
 
 참고자료:
-
 [기후기술 분류체계](https://www.ctis.re.kr/ko/techClass/classification.do?key=1141)
-
 [2019년 기후기술 국가연구개발사업 조사분석 보고서](https://www.gtck.re.kr/gtck/gtcPublication.do?mode=view&articleNo=1844&article.offset=30&articleLimit=10)
 
 
 주최 : 녹색기술센터(GTC)
-
 주관 : DACON
 
 ============================================================================
