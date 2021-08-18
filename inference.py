@@ -1,4 +1,4 @@
-# <1. klue/roberta-large + 2. bert-based-multilingual + 6. klue/roberta-base + 중분류 레이블 + 10. electra-funnel-base> ensemble
+# <1. klue/roberta-large + 2. bert-based-multilingual + 6. klue/roberta-base + 중분류 레이블 + 10. electra-funnel-base> ensemble.
 
 from glob import glob
 from os.path import join as opj
