@@ -35,6 +35,8 @@ bash run.sh
 Due to the large file size, only the code and material for middle classification are attached.
 Just download train.csv and test.csv from [link](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM) put them in data_s and data_j/original/.
 
+============================================================================================
+
 ### System Requirements
 python=3.8  
 tokenizers=0.10.3     
