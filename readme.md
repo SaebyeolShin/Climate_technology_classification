@@ -48,7 +48,7 @@
 ====================================================
 
 ├── sample_submission.csv
-├── inference.py (ensemble j+s)
+├── inference.py (ensemble j+s -> creates 1_2_6_10.csv)
 └── 1_2_6_10.csv (submission csv)
 
 ```
