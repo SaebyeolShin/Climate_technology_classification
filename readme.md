@@ -6,6 +6,7 @@
 [기후기술 분류체계](https://www.ctis.re.kr/ko/techClass/classification.do?key=1141) ,
 [2019년 기후기술 국가연구개발사업 조사분석 보고서](https://www.gtck.re.kr/gtck/gtcPublication.do?mode=view&articleNo=1844&article.offset=30&articleLimit=10)
 
+평가 산식: Macro-F1
 
 주최 : 녹색기술센터(GTC)
 
