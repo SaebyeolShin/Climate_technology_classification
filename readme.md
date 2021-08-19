@@ -14,7 +14,7 @@
 
 ## Path
 ```
-├── data
+├── data_j
 │   ├── original (download dataset in dacon site)
 │   │   ├── train.csv
 │   │   └── test.csv
@@ -22,11 +22,31 @@
 │   └── category_add
 │       └── custom_labels_mapping.csv
 │
+├── data_s (download dataset in dacon site)
+│   ├── train.csv
+│   └── test.csv
+│ 
+├── sample_submission.csv
+│
+├── utils_j.py
+│
+├── preprocess_j.py (tokenizer)
+├── preprocessing_s.py 
+│
+├── dataset_j.py (model + middle category model)
+├── model_j.py (bert model & custom XLMRoberta)
+├── model_s.py (model)
 │
 │
+├── train_j.py (train)
+├── train_s.py
+│
+├── inference_j.py (inference)
+├── inference_s.py
 │
 │
-│
+├── inference.py (ensemble j+s)
+└── climate_result.csv (submission csv)
 
 ```
 
