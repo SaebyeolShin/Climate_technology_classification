@@ -103,6 +103,11 @@ Download train.csv and test.csv from [link](https://drive.google.com/drive/folde
   - tokenizer = AutoTokenizer.from_pretrained('klue/roberta-large')
   - model = XLMRobertaForSequenceClassification.from_pretrained('klue/roberta-large', num_labels=46)
 
+### kykim/funnel-kor-base
+  - features = '사업명', '요약문_한글키워드', '사업_부처명', '과제명', 'label'
+  - tokenizer = ElectraTokenizer.from_pretrained('kykim/funnel-kor-base')
+  - model = FunnelForSequenceClassification.from_pretrained('kykim/funnel-kor-base', num_labels=46)
+
 ### bert-base-multilingual-cased
   - features = '사업명', '요약문_한글키워드', '사업_부처명', '과제명', '요약문_연구내용', 'label'
   - tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased')
@@ -112,10 +117,4 @@ Download train.csv and test.csv from [link](https://drive.google.com/drive/folde
   - features = '사업명', '요약문_한글키워드', '사업_부처명', '과제명', 'label', 'label_m'
   - tokenizer = AutoTokenizer.from_pretrained('klue/roberta-large')
   - model = custom_XLMRoberta('klue/roberta-base', n_classes=46, n_middle_classes=15)
-
-### kykim/funnel-kor-base
-  - features = '사업명', '요약문_한글키워드', '사업_부처명', '과제명', 'label'
-  - tokenizer = ElectraTokenizer.from_pretrained('kykim/funnel-kor-base')
-  - model = FunnelForSequenceClassification.from_pretrained('kykim/funnel-kor-base', num_labels=46)
-
 
