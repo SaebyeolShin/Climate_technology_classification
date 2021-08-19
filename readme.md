@@ -10,7 +10,7 @@
 주최 : 녹색기술센터(GTC)
 주관 : DACON
 
-'''
+## Description
 
 <NewStar>팀은 두명이 서로 다른 모델을 사용하였기 때문에 코드의 파이프라인은 크게 2가지로 나누었습니다.  
 
@@ -46,7 +46,6 @@ bash run.sh
 Due to the large file size, only the code and material for middle-category are attached.
 Download train.csv and test.csv from [link](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM) and then put them in data_s and data_j/original/.
 
-============================================================================
 
 ### System Requirements
 python=3.8  
