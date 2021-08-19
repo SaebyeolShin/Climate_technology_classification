@@ -97,24 +97,20 @@ Download train.csv and test.csv from [link](https://drive.google.com/drive/folde
 
 ## Description
 
-```
-- klue/roberta-large
+### klue/roberta-large
   ├── tokenizer = AutoTokenizer.from_pretrained('klue/roberta-large')
   └── model = XLMRobertaForSequenceClassification.from_pretrained('klue/roberta-large', num_labels=46)
-```
-```
-- bert-base-multilingual-cased
+
+### bert-base-multilingual-cased
   ├── tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased')
   └── model = BertForMultiLabelSequenceClassification.from_pretrained('bert-base-multilingual-cased', num_labels=46, return_dict=False)
-```
-```
-- klue/roberta-base (with middle category targets)
+
+### klue/roberta-base (with middle category targets)
   ├── tokenizer = AutoTokenizer.from_pretrained('klue/roberta-large')
   └── model = custom_XLMRoberta('klue/roberta-base', n_classes=46, n_middle_classes=15)
-```
-```
-- kykim/funnel-kor-base
+
+### kykim/funnel-kor-base
   ├── tokenizer = ElectraTokenizer.from_pretrained('kykim/funnel-kor-base')
   └── model = FunnelForSequenceClassification.from_pretrained('kykim/funnel-kor-base', num_labels=46)
-```
+
 
