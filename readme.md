@@ -9,7 +9,7 @@
 
 주최 : 녹색기술센터(GTC)
 
-주관 : DACON [대회 링크] (https://dacon.io/competitions/official/235744/overview/description)
+주관 : DACON [대회 링크](https://dacon.io/competitions/official/235744/overview/description)
 
 ## Path
 ```
