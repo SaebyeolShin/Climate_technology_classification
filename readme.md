@@ -51,7 +51,7 @@
 └── climate_result.csv (submission csv)
 
 ```
-## Description
+## How to use
 
 NewStar 팀은 두명이 서로 다른 모델을 사용하였기 때문에 코드의 파이프라인은 크게 2가지로 나누었습니다.  
 
