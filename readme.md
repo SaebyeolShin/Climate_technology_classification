@@ -52,7 +52,7 @@
 ```
 ## Description
 
-<NewStar>팀은 두명이 서로 다른 모델을 사용하였기 때문에 코드의 파이프라인은 크게 2가지로 나누었습니다.  
+NewStar 팀은 두명이 서로 다른 모델을 사용하였기 때문에 코드의 파이프라인은 크게 2가지로 나누었습니다.  
 
 1. train_j.py -> inference_j.py
 2. train_s.py -> inference_s.py
@@ -71,7 +71,7 @@ bash run.sh
 
 ============================================================================
 
-Since the team <NewStar> used two different models, the code pipeline was divided into two major parts.
+Since the team NewStar used two different models, the code pipeline was divided into two major parts.
 
 1. train_j.py -> inference_j.py
 2. train_s.py -> inference_s.py
