@@ -33,7 +33,6 @@
 └── inference_j.py (inference)
 
 ====================================================
-##
 
 ├── data_s (download dataset in dacon site)
 │   ├── train.csv
@@ -47,7 +46,6 @@
 └── inference_s.py (inference)
 
 ====================================================
-##
 
 ├── sample_submission.csv
 ├── inference.py (ensemble j+s -> creates 1_2_6_10.csv)
