@@ -10,8 +10,6 @@
 주최 : 녹색기술센터(GTC)
 주관 : DACON
 
-## Description
-
 ## Path
 ```
 ├── data_j
@@ -32,7 +30,7 @@
 ├── train_j.py (train)
 └── inference_j.py (inference)
 
---------------------------------------------------
+====================================================
 
 ├── data_s (download dataset in dacon site)
 │   ├── train.csv
@@ -45,13 +43,14 @@
 ├── train_s.py (train)
 └── inference_s.py (inference)
 
---------------------------------------------------
+====================================================
 
 ├── sample_submission.csv
 ├── inference.py (ensemble j+s)
 └── climate_result.csv (submission csv)
 
 ```
+## Description
 
 <NewStar>팀은 두명이 서로 다른 모델을 사용하였기 때문에 코드의 파이프라인은 크게 2가지로 나누었습니다.  
 
