@@ -22,29 +22,32 @@
 │   └── category_add
 │       └── custom_labels_mapping.csv
 │
+├── utils_j.py
+│
+├── preprocess_j.py (tokenizer)
+│
+├── dataset_j.py (model + middle category model)
+├── model_j.py (bert model & custom XLMRoberta)
+│
+├── train_j.py (train)
+└── inference_j.py (inference)
+
+--------------------------------------------------
+
 ├── data_s (download dataset in dacon site)
 │   ├── train.csv
 │   └── test.csv
 │ 
-├── sample_submission.csv
+├── preprocessing_s.py (tokenizer)
 │
-├── utils_j.py
-│
-├── preprocess_j.py (tokenizer)
-├── preprocessing_s.py 
-│
-├── dataset_j.py (model + middle category model)
-├── model_j.py (bert model & custom XLMRoberta)
 ├── model_s.py (model)
 │
-│
-├── train_j.py (train)
-├── train_s.py
-│
-├── inference_j.py (inference)
-├── inference_s.py
-│
-│
+├── train_s.py (train)
+└── inference_s.py (inference)
+
+--------------------------------------------------
+
+├── sample_submission.csv
 ├── inference.py (ensemble j+s)
 └── climate_result.csv (submission csv)
 
