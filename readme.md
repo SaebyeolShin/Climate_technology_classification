@@ -48,10 +48,10 @@
 
 ├── sample_submission.csv
 ├── inference.py (ensemble j+s)
-└── climate_result.csv (submission csv)
+└── 1_2_6_10.csv (submission csv)
 
 ```
-## How to use
+## How to Use
 
 NewStar 팀은 두명이 서로 다른 모델을 사용하였기 때문에 코드의 파이프라인은 크게 2가지로 나누었습니다.  
 
@@ -94,3 +94,23 @@ Download train.csv and test.csv from [link](https://drive.google.com/drive/folde
 - torch=1.9.0  
 - transformers=4.8.1  
 - pandas=1.2.5  
+
+## Description
+
+- klue/roberta-large
+  ├── tokenizer = AutoTokenizer.from_pretrained('klue/roberta-large')
+  └── model = XLMRobertaForSequenceClassification.from_pretrained('klue/roberta-large', num_labels=46)
+  
+- bert-base-multilingual-cased
+  ├── tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased')
+  └── model = BertForMultiLabelSequenceClassification.from_pretrained('bert-base-multilingual-cased', num_labels=46, return_dict=False)
+  
+- klue/roberta-base (with middle category targets)
+  ├── tokenizer = AutoTokenizer.from_pretrained('klue/roberta-large')
+  └── model = custom_XLMRoberta('klue/roberta-base', n_classes=46, n_middle_classes=15)
+  
+- kykim/funnel-kor-base
+  ├── tokenizer = ElectraTokenizer.from_pretrained('kykim/funnel-kor-base')
+  └── model = FunnelForSequenceClassification.from_pretrained('kykim/funnel-kor-base', num_labels=46)
+
+
