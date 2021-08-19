@@ -47,9 +47,9 @@ Due to the large file size, only the code and material for middle-category are a
 Download train.csv and test.csv from [link](https://drive.google.com/drive/folders/1DXJkhQr3Eybut7XrBgjBt-GM3apNoWHM) and then put them in data_s and data_j/original/.
 
 
-### System Requirements
-python=3.8  
-tokenizers=0.10.3     
-torch=1.9.0  
-transformers=4.8.1  
-pandas=1.2.5  
+## System Requirements
+- python=3.8  
+- tokenizers=0.10.3     
+- torch=1.9.0  
+- transformers=4.8.1  
+- pandas=1.2.5  
