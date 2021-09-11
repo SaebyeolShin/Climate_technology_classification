@@ -117,3 +117,9 @@ Download train.csv and test.csv from [link](https://drive.google.com/drive/folde
   - features = '사업명', '요약문_한글키워드', '사업_부처명', '과제명', 'label'
   - tokenizer = ElectraTokenizer.from_pretrained('kykim/funnel-kor-base')
   - model = FunnelForSequenceClassification.from_pretrained('kykim/funnel-kor-base', num_labels=46)
+
+1. Topic
+    1) Natural Language-based Climate Technology Classification AI Contest
+    2) 자연어 기반 기후기술분류 AI 경진대회
+2. Description
+    1) Development of an algorithm for labeling national R&D tasks in accordance with the 'climate technology classification system'
