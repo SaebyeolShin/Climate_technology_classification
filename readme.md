@@ -121,4 +121,4 @@ Download train.csv and test.csv from [link](https://drive.google.com/drive/folde
 | YEAR | NAME | HOST | RANK | TYPE |
 |:--------:|:--------:|:--------:|
 | 2021 | Natural Language-based Climate Technology Classification AI Contest | GTC/Dacon | 4th/258(top 2%) | Classification (NLP) |
-| 2021 | 2021 5th AI Grand Challenge | IITP | Awards (KRW 273M in supprot) | Regression/Classification (NLP) |
+
